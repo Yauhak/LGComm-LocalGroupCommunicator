@@ -30,26 +30,22 @@
 2 **启动程序**
 - 双击运行 LGComm.bat
 - 输入目标IP
-bash
-```
+```bash
 Input IP Address: 192.168.1.100  :: 输入对方局域网IP
 ```
 - 开始通信
-bash
-```
+```bash
 :::: Hello!         :: 输入消息后回车发送
 :::: How are you?   :: 保持窗口开启以持续同步
 :::: exit           :: 输入exit退出程序
 ```
 - 消息格式示例
-plaintext
-```
+```plaintext
 ::[Hk.C]2024/01/01 14:30:: Hello!
 ```
 ### 注意事项 ⚠️
 确保双方D:\dialog目录共享名为log
-bash
-```
+```bash
 net share log=D:\dialog
 ```
 - 建议关闭实时杀毒软件避免误拦截
